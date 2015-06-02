@@ -1,0 +1,13 @@
+vgi1.0
+//
+// Fichier de configuration pour VGI
+//
+// chemin du fichier de configuration de la base d'images
+image /home/manleviet/TPE/Database/BW/db.conf
+// chemin du repertoire de MS
+databaseMS /home/manleviet/TPE/Database/database01/MS
+// chemin du repertoire de SA
+databaseSA /home/manleviet/TPE/Database/database01/SA
+// dans les repertoire MS et SA, on doit contenir les fichiers suivants :
+// 1. igroups.data
+// 2. les fichiers data des images

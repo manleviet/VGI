@@ -1,0 +1,23 @@
+vgi2.0
+//
+// Fichier de configuration pour VGI
+//
+// chemin du fichier de configuration de la base d'images
+image /home/manleviet/TPE/Database/BW/db.conf
+// chemin du repertoire de MS
+databaseMS /home/manleviet/TPE/Database/database01/MS
+// chemin du repertoire de SA
+databaseSA /home/manleviet/TPE/Database/database01/SA
+// dans les repertoire MS et SA, on doit contenir les fichiers suivants :
+// 1. igroups.data
+// 2. les fichiers data des images
+cluster 0 /home/manleviet/TPE/Database/cluster0/MS-C0 /home/manleviet/TPE/Database/cluster0/SA-C0
+cluster 1 /home/manleviet/TPE/Database/cluster1/MS-C1 /home/manleviet/TPE/Database/cluster1/SA-C1
+cluster 2 /home/manleviet/TPE/Database/cluster2/MS-C2 /home/manleviet/TPE/Database/cluster2/SA-C2
+cluster 3 /home/manleviet/TPE/Database/cluster3/MS-C3 /home/manleviet/TPE/Database/cluster3/SA-C3
+cluster 4 /home/manleviet/TPE/Database/cluster4/MS-C4 /home/manleviet/TPE/Database/cluster4/SA-C4
+cluster 5 /home/manleviet/TPE/Database/cluster5/MS-C5 /home/manleviet/TPE/Database/cluster5/SA-C5
+cluster 8 /home/manleviet/TPE/Database/cluster8/MS-C8 /home/manleviet/TPE/Database/cluster8/SA-C8
+cluster 9 /home/manleviet/TPE/Database/cluster9/MS-C9 /home/manleviet/TPE/Database/cluster9/SA-C9
+cluster 10 /home/manleviet/TPE/Database/cluster10/MS-C10 /home/manleviet/TPE/Database/cluster10/SA-C10
+cluster 11 /home/manleviet/TPE/Database/cluster11/MS-C11 /home/manleviet/TPE/Database/cluster11/SA-C11
